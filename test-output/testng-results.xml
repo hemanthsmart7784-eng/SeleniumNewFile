@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-09T20:18:06 IST" name="Default suite" finished-at="2026-10-09T20:18:08 IST" duration-ms="2188">
+  <suite started-at="2026-10-09T20:21:42 IST" name="Default suite" finished-at="2026-10-09T20:21:44 IST" duration-ms="2680">
     <groups>
     </groups>
-    <test started-at="2026-10-09T20:18:06 IST" name="Default test" finished-at="2026-10-09T20:18:08 IST" duration-ms="2188">
+    <test started-at="2026-10-09T20:21:42 IST" name="Default test" finished-at="2026-10-09T20:21:44 IST" duration-ms="2680">
       <class name="ApiTesting.ComplexJson">
-        <test-method signature="complexJson()[pri:0, instance:ApiTesting.ComplexJson@63a12c68]" started-at="2026-10-09T20:18:06 IST" name="complexJson" finished-at="2026-10-09T20:18:08 IST" duration-ms="2126" status="PASS">
+        <test-method signature="complexJson()[pri:0, instance:ApiTesting.ComplexJson@63a12c68]" started-at="2026-10-09T20:21:42 IST" name="complexJson" finished-at="2026-10-09T20:21:44 IST" duration-ms="2600" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- complexJson -->

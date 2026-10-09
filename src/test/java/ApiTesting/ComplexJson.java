@@ -29,7 +29,7 @@ public class ComplexJson {
 				if (couseTitle.equals("RPA")) {
 					int copies =  js.get("courses["+i+"].copies");
 					System.out.println("copies by RPA "+copies);
-					
+					break;
 				}
 			}
 			int allCrousePrices=0;
