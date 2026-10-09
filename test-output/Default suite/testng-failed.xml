@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DataProviderUsingExcel.DataProviderUsingExcel">
+      <class name="ApiTesting.ComplexJson">
         <methods>
-          <include name="testCaseData"/>
+          <include name="complexJson"/>
         </methods>
-      </class> <!-- DataProviderUsingExcel.DataProviderUsingExcel -->
+      </class> <!-- ApiTesting.ComplexJson -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

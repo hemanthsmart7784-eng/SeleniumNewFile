@@ -5,6 +5,7 @@ import static io.restassured.RestAssured.given;
 
 import io.restassured.RestAssured;
 import io.restassured.matcher.ResponseAwareMatcher;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 
@@ -22,6 +23,9 @@ public class Basic {
 				+ "}").when().post("/users")
 		.then().log().all().assertThat().statusCode(201).extract().response().asString();
 		System.out.println("thisssss"+res);
+		JsonPath js = new JsonPath (res);
+		String email=js.get("email");
+		System.out.println("email is : "+email);
 		
 	}
 
